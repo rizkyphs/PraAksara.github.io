@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 5%;
+            background-color: rgba(0, 0, 0, 0.2);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+        }
+
+        .navbar .navbar-logo{
+            font-size: 25px;
+            font-weight: 700;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar .navbar-logo span {
+            color: rgb(194, 147, 16);
+            font-size: 25px;
+            font-weight: 700;
+        }
+
+        .navbar .navbar-nav a {
+            color: white;
+            display: inline-block;
+            font-size: 20px;
+            margin: 0 16px;
+        }
+
+        .navbar .navbar-nav a:hover {
+            color: rgb(194, 147, 16);
+        }
+
+        .hero {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        /* isi */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),url(170407220916-04-iconic-mountains-matterhorn-restricted.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        
+        .hero .content {
+            padding: 1.4rem 7%;
+            max-width: 60rem;
+        }
+        
+        .hero .content h1 {
+            font-size: 3em;
+            color: white;
+            text-shadow: 1px 1px 3px black;
+        }
+        
+        .hero .content p {
+            font-size: 16px;
+            margin-top: 5px;
+            color: white;
+            font-weight: 1;
+            font-family:'poppins';
+        }
+        /* zaman */
+        .about {
+            width: 100%;
+            padding: 78px 0;
+            background-color: rgb(221, 221, 221);
+        }
+        
+        .about-text {
+            width: 550px;
+        }
+
+        .main {
+            width: 1130px;
+            max-width: 95%;
+            margin: 50px auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .zam {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10px;
+            text-decoration: underline;
+            font-family: Arial;
+        }
+
+        .an {
+            color: darkorange;
+        }
+
+        .about-text h2 {
+            margin-bottom: 20px;
+            text-transform: capitalize;
+            font-family: Courier;
+        }
+
+        .about-text p {
+            font-size: 18px;
+            font-family: 'poppins';
+        }
+        /* contoh */
+        .container {
+            background-color: rgb(255, 255, 255);
+            margin: 100px 150px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            
+        }
+        
+        .container:hover {
+            cursor: pointer;
+            box-shadow: 15px 15px 35px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+        
+        .z-text {
+            margin: 10px;
+        }
+
+        .z-text h3 {
+            font-family: sans-serif;
+            margin: 8px 0;
+        }
+
+        .judull {
+            margin-bottom: 10px;
+            text-decoration: underline;
+        }
+        /* card */
+        .container2 {
+            margin-top: 60px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .card {
+            background-color: white;
+            width: 280px;
+            height: 400px;
+            margin: 15px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
+        }
+
+        .gmbr {
+            padding: 245px 0;
+            text-align: center;
+        }
+        
+        .card-img {
+            height: 150px;
+            margin-bottom: 10px;
+            background-size: cover;
+            border-radius: 12px 12px 0 0;
+        }
+        
+        .card1 {
+            background-image: url(zaman.jpg);
+        }
+
+        .card2 {
+            background-image: url(g2.jpeg);
+        }
+
+        .card3 {
+            background-image: url(g3.jpeg);
+        }
+
+        .card4 {
+            background-image: url(g4.jpg);
+        }
+        /* me */
+        .about2 {
+            width: 100%;
+            padding: 78px 0;
+            background-color: rgb(221, 221, 221);
+        }
+        
+        .about-text2 {
+            width: 550px;
+        }
+
+        .main2 {
+            width: 1130px;
+            max-width: 95%;
+            margin: 50px auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .about-text2 h2 {
+            margin-bottom: 20px;
+            text-transform: capitalize;
+            font-family: Courier;
+        }
+
+        .about-text2 p {
+            font-size: 18px;
+            font-family: 'poppins';
+        }
+
+        .about-text2 span {
+            color: darkorange;
+            text-decoration: underline;
+            font-weight: bold;
+        }
